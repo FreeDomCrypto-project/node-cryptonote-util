@@ -16,7 +16,7 @@
 
 #define THROW_ERROR_EXCEPTION(x) NanThrowError(x)
 #define THROW_ERROR_EXCEPTION_WITH_STATUS_CODE(x, y) NanThrowError(x, y)
-        
+
 using namespace node;
 using namespace v8;
 using namespace cryptonote;
